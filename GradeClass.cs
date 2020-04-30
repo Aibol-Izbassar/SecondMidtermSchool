@@ -6,7 +6,7 @@ namespace MidTerm2OODP_First
 {
     class GradeClass
     {
-        List<Pupil> pupils = new List<Pupil>();
+        public List<Pupil> pupils { get; private set; } = new List<Pupil>();
         string _className;
         public GradeClass(string className)
         {
